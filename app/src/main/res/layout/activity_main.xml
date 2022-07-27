@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:textSize="20sp"
+        android:textColorHighlight="#548"
+        android:textColor="#C2185B"
+        android:paddingRight="16dp"
+        android:paddingLeft="16dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/mEdtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="enter name"
+        android:inputType="textPersonName"
+        android:textColorHint="#757575" />
+
+    <EditText
+        android:textSize="20sp"
+        android:textColorHighlight="#548"
+        android:textColor="#C2185B"
+        android:paddingRight="16dp"
+        android:paddingLeft="16dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/mEdtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="enter email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:textSize="20sp"
+        android:textColorHighlight="#548"
+        android:textColor="#C2185B"
+        android:paddingRight="16dp"
+        android:paddingLeft="16dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/mEdtIdNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter ID Number"
+        android:inputType="number" />
+
+    <EditText
+        android:textSize="20sp"
+        android:textColorHighlight="#548"
+        android:textColor="#C2185B"
+        android:paddingRight="16dp"
+        android:paddingLeft="16dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/mEdtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter password"
+        android:inputType="textPassword" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:textSize="20sp"
+            android:textColor="#126"
+            android:backgroundTint="#88774933"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="register" />
+
+        <Button
+            android:textSize="20sp"
+            android:textColor="#0097A7"
+            android:backgroundTint="#335666"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="login" />
+    </LinearLayout>
+</LinearLayout>
